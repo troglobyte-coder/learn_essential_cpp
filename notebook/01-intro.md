@@ -35,10 +35,69 @@ language are as follows:
 * Some interesting facts about C++: 
 * Here are some awesome facts about C++ that may interest you:
 
-The name of C++ signifies the evolutionary nature of the changes from C. “++” is the C increment operator.
+The name of C++ signifies the evolutionary nature of the changes from C. “++”
+is the C increment operator.
 * C++ is one of the predominant languages for the development of all kind of technical and commercial software.
 * C++ introduces Object-Oriented Programming, not present in C. Like other things, C++ supports the four primary features of OOP: encapsulation, polymorphism, abstraction, and inheritance.
 * C++ got the OOP features from Simula67 Programming language.
 * A function is a minimum requirement for a C++ program to run.(at least main() function)
+
+
+# Setup a development envirment
+
+C++ is a general-purpose programming language and widely used nowadays
+for competitive programming. It has imperative, object-oriented and
+generic programming features. 
+
+C++ runs on lots of platform like Windows, Linux, Unix, Mac, etc.
+Before we start programming with C++. We will need an environment to
+be set-up on our local computer to compile and run our C++ programs
+successfully. If you do not want to set up a local environment you
+can also use online IDEs for compiling your program.
+
+Using online IDE: IDE stands for integrated development environment.
+IDE is a software application that provides facilities to a computer
+programmer for developing software. There are many online IDEs
+available which you can use to compile and run your programs easily
+without setting up a local development environment.
+
+## Setting up local environment
+
+For setting up your own personal development environment on your
+local machine you need to install two important softwares: 
+
+Text Editor: Text Editors are type of programs used to edit or write
+texts. We will use text-editors to type our C++ programs. The normal
+extension of a text file is (.txt) but a text file containing C++
+program should be saved with ‘.CPP’ or ‘.C’ extension. Files ending
+with the extension ‘.CPP’ and ‘.C’ are called source code files and
+they are supposed to contain source code written in C++ programming
+language. These extension helps the compiler to identify that the
+file contains a C++ program. 
+
+Before beginning programming with C++, one must have a text-editor
+installed to write programs. 
+ 
+C++ Compiler: Once you have installed text-editor and typed and save
+your program in a file with ‘.CPP’ extension, you will need a C++
+compiler to compile this file. A compiler is a computer program which
+converts high-level language into machine understandable low-level
+language. In other words, we can say that it converts the source code
+written in a programming language into another computer language which
+the computer understands. For compiling a C++ program we will need a
+C++ compiler which will convert the source code written in C++ into
+machine codes. Below are the details about setting up compiler on
+different platforms.
+
+**Linux Installation:** We will install the GNU GCC compiler on Linux.
+To install and work with the GCC compiler on your Linux machine, proceed
+according to below steps: You have to first run the below two commands
+from your Linux terminal window:
+
+```
+sudo apt-get update
+sudo apt-get install gcc
+sudo apt-get install g++
+```
 
 # EOL
